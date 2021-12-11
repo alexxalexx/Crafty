@@ -73,8 +73,15 @@ html
 	padding-left: 40px;
 	padding-top: 5px;
 }
-.logo
+.logo_div
 {
 	position: relative;
 	left: 80px;
+}
+.welcome_div
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding-top: 160px;
 }
