@@ -140,5 +140,37 @@ html
 	text-align: center;
 	padding-top: 25%;
 }
-
+.third_frame
+{
+	background-color: #9D83DC;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.usability_text
+{
+	text-align: center;
+	padding-top: 5%;
+}
+.offer1
+{
+	padding-top: 5%;
+	margin-right: 3%;
+}
+.offer2
+{
+	padding-top: 5%;
+	margin-right: 3%;
+}
+.offer3
+{
+	padding-top: 5%;
+	margin-right: 10%;
+}
+.third_frame_container
+{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
 
