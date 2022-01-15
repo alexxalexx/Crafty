@@ -135,4 +135,10 @@ html
 	position: relative;
 	overflow: hidden;
 }
+.flexbox
+{
+	text-align: center;
+	padding-top: 25%;
+}
+
 
