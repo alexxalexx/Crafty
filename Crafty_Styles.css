@@ -1,11 +1,16 @@
-body
+.first_frame
 {
 	background-image: url("scale_1200.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 100%;
-	margin: 0px;
 	position: relative;
+	overflow: hidden;
+}
+body
+{
+	height: 100%;
+	margin: 0;
 }
 html
 {
@@ -31,15 +36,16 @@ html
 	top: 110px;
 	right: 120px;
 }
-.feedbacks_text
+.pricing_text
 {
 	font-size: 36px;
 	font-family: 'Nunito', sans-serif;
 	align-items: center;
 	margin-top: 0;
 	color: white;
-	z-index: 2;
 	margin-right: 47px;
+	z-index: 3;
+    position: relative;
 }
 .news_text
 {
@@ -48,8 +54,9 @@ html
 	align-items: center;
 	margin-top: 0;
 	color: white;
-	z-index: 2;
 	margin-right: 47px;
+	z-index: 3;
+    position: relative;
 }
 .catalogue_text
 {
@@ -58,8 +65,9 @@ html
 	align-items: center;
 	margin-top: 0;
 	color: white;
-	z-index: 2;
 	margin-right: 47px;
+	z-index: 3;
+    position: relative;
 }
 .log_in_button
 {
@@ -89,8 +97,8 @@ html
   transition-timing-function: ease-out;
 }
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .logo_div
 {
