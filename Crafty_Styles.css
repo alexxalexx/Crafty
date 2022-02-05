@@ -199,6 +199,11 @@ html
 	position: relative;
 	overflow: hidden;
 }
+.recomend
+{
+	padding-top: 3%;
+	text-align: center;
+}
 .sixth_frame
 {
 
@@ -209,4 +214,13 @@ html
 	position: relative;
 	overflow: hidden;
 }
-
+.footer
+{
+	height: 25%;
+	background-color: #000000;
+}
+.logo_footer
+{
+	margin-top: 80px;
+	margin-left: 80px;
+}
